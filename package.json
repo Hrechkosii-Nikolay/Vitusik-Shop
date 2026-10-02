@@ -1,0 +1,1 @@
+{"name":"vitusik-shop","version":"1.0.0","private":true,"type":"module","engines":{"node":">=24"},"scripts":{"start":"node --env-file-if-exists=.env server/index.mjs","test":"node --test server/tests.mjs","check":"node --check public/app.js && node --check server/index.mjs"}}
